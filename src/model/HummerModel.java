@@ -12,7 +12,6 @@ public abstract class HummerModel {
 
     protected abstract void engineBoom();
 
-
     /**  设置是否 鸣笛
      *  默认不鸣笛
      * @return
@@ -23,12 +22,6 @@ public abstract class HummerModel {
 
 
     public void run(){
-//        this.start();
-//        this.engineBoom();
-//
-//        this.alarm();
-//        this.stop();
-
         this.start();
         this.engineBoom();
 
